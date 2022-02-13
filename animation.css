@@ -81,7 +81,26 @@
 }
 
 @keyframes rot{
-    0%{
+    100%{
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover{
+    animation: turn 2s linear;
+}
+
+@keyframes turn{
+    0%{
+        transform: rotate(0deg)
+    }
+
+    90%{
+        transform: rotate(270deg)
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
